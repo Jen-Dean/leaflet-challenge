@@ -128,13 +128,4 @@ function createMap(earthquakes) {
     };
     legend.addTo(myMap);
 
-    // function makePlates() {
-    //     d3.json(plateurl, function (data) {
-    //         // Once we get a response, send the data.features object to the createFeatures function
-    //         var tectonicplates = L.geoJSON(data);
-
-    //         return tectonicplates
-    //     });
-    //     return tectonicplates
-    // };
 }
